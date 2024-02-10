@@ -279,57 +279,7 @@ def cantidades_accidentes_por_anio_y_sexo(df):
     # Se muestra el gráfico
     plt.show()
     
-def cohen(group1, group2):
-    '''
-    Calcula el tamaño del efecto de Cohen d para dos grupos.
 
-    Parameters:
-        grupo1: El primer grupo.
-        grupo2: El segundo grupo.
-
-    Returns:
-        El tamaño del efecto de Cohen d.
-    '''
-    diff = group1.mean() - group2.mean()
-    var1, var2 = group1.var(), group2.var()
-    n1, n2 = len(group1), len(group2)
-    pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2)
-    d = diff / np.sqrt(pooled_var)
-    return d
-
-def cohen_por_año(df):
-    '''
-    Calcula el tamaño del efecto de Cohen d para dos grupos para los años del Dataframe.
-
-    Parameters:
-        df (pandas.DataFrame): El DataFrame que se va a analizar.
-
-    Returns:
-        El tamaño del efecto de Cohen d.
-    '''
-    # Se obtienen los años del conjunto de datos
-    años_unicos = df['Anio'].unique()
-    # Se crea una lista vacía para guardar los valores de Cohen
-    cohen_lista = []
-    # Se itera por los años y se guarda Cohen para cada grupo
-    for a in años_unicos:
-        grupo1 = df[((df['Sexo'] == 'Hombre') & (df['Anio'] == a))]['Edad']
-        grupo2 = df[((df['Sexo'] == 'Mujer')& (df['Anio'] == a))]['Edad']
-        d = cohen(grupo1, grupo2)
-        cohen_lista.append(d)
-
-    # Se crea un Dataframe
-    cohen_df = pd.DataFrame()
-    cohen_df['Anio'] = años_unicos
-    cohen_df['Estadistico de Cohen'] = cohen_lista
-    cohen_df
-    
-    # Se grafica los valores de Cohen para los años
-    plt.figure(figsize=(8, 4))
-    plt.bar(cohen_df['Anio'], cohen_df['Estadistico de Cohen'], color='skyblue')
-    plt.xlabel('Anio') ; plt.ylabel('Estadístico de Cohen') ; plt.title('Estadístico de Cohen por Año')
-    plt.xticks(años_unicos)
-    plt.show()
 
 def edad_y_rol_victimas(df):
     '''
@@ -342,6 +292,7 @@ def edad_y_rol_victimas(df):
     plt.show()
     
 def distribucion_edad_por_victima(df):
+
     '''
     Genera un gráfico de la distribución de la edad de las víctimas por tipo de vehículo.
     '''
@@ -407,7 +358,7 @@ def cantidad_victimas_sexo_rol_victima(df):
 
     # Se define una paleta de colores personalizada (invierte los colores)
     colores_por_defecto = sns.color_palette()
-    colores_invertidos = [colores_por_defecto[1], colores_por_defecto[0]]
+    colores_invertidos = [colores_por_defecto[0], colores_por_defecto[1]]
     
     # Gráfico 2: Rol
     df_rol = df.groupby(['Rol', 'Sexo']).size().unstack(fill_value=0)
