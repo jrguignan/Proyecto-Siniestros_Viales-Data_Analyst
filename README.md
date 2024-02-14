@@ -31,9 +31,7 @@ Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales a
 
 
 ## Datos
-Se pone a nuestra disposicion un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021, que se puede encontar en la pagina [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar/dataset/):
-
-[Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales):
+Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en la página [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar/dataset/):[Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales):
 
 Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesiones**
 
@@ -53,13 +51,12 @@ Para descargar los datasets completos que se utilizaron en este proyecto, se pue
 
 _Nota_: El dataframe que se creo a partir del archivo lesiones, se le coloco el nombre de **victimas**.
 
-                                                                              |
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html) <br>
 ### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)
 
 - Se unieron las dos hojas del archivo homicidios.
-- Se crearon los dataframe df1_homicidios y df2_victimas.
+- Se crearon los dataframe **df1_homicidios** y **df2_victimas**.
 - Se cambió el nombre de algunas columnas.
 - Se verificó cada una de las columnas, en busca de valores faltantes o atípicos.
 - Se llenó los valores faltantes con SD y se cambió los tipos de datos atípicos.
@@ -88,7 +85,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 
 
 ### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
-## Analisis Temporal
+## [Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Dentro del análisis temporal, se abordo el estudio de la distribucion de los años, meses, dias y franjas horarias de los accidentes.
 
@@ -96,13 +93,13 @@ Dando como resultados mas significativos que el mes de Diciembre es el mas afect
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
 
-## Analisis de accidente y partes involucradas
+## [Analisis de accidente y partes involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
-## Analisis Geografico
+## [Analisis Geografico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
@@ -142,7 +139,9 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
 ![KPIs](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
 
-## Conclusiones y Recomendaciones
+Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
+
+## [Conclusiones y Recomendaciones](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 
 
