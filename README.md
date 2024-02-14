@@ -139,6 +139,20 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
 Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
 
+## Conclusiones y recomendaciones
+
+Entre los años 2016 a 2021 se registraron 717 víctimas fatales en accidentes de tránsito. El 70% de las víctimas se registraron durante la semana. En cuanto a la franja horaria, el 12% de los hechos ocurre entre las 6 y las 8 de la mañana, pero durante los fines de semana. Diciembre es el mes que resulta con el máximo de fallecimientos en el período analizado.
+
+El 77% de las víctimas fatales fueron de sexo masculino, de los cuales casi el 50% tenía entre 25 y 44 años de edad. En relación al tipo de usuario, el 42% fueron motociclistas. El 62% de los homicidios ocurrió en algún punto de las avenidas de CABA, siendo el 82% de ellos en un cruce de la autopista con alguna otra calle. En ese sentido, el 75% de los hechos ocurrieron en cruces de calles.
+
+Finalmente, para el segundo semestre del año 2021, se cumplió con el objetivo de bajar la tasa de homicidios en siniestros viales, pero no se cumplieron los objetivos de reducir la cantidad de accidentes mortales en motociclistas ni en avenidas para el año 2021 respecto del año 2020.
+
+En función de lo anterior, se hacen las siguientes recomendaciones:
+
+* Continuar monitoreando los objetivos propuestos acompañados de campañas puntuales, en especial a conductores de motos y usuarios de las avenidas.
+* Reforzar las campañas de seguridad vial entre los días viernes a lunes, intensificando particularmente en el mes de Diciembre.
+* Puntualizar campañas de conducción segura en avenidas y cruces de calles.
+* Dirigir las campañas de seguridad hacia el sexo masculino, especialmente en cuanto a conducción en moto.
 
 
 ## Requerimientos
