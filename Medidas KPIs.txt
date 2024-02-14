@@ -1,0 +1,116 @@
+1er KPI
+Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA,
+en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
+
+
+M TasaHomicidiosSegundoSemestre = 
+    VAR Ultimos6Meses = CALCULATETABLE(Homicidios_clean, (Homicidios_clean[Fecha] >= DATE(2021, 7, 1) && Homicidios_clean[Fecha] <= DATE(2021, 12, 31)))
+    VAR TotalHomicidiosUltimos6Meses = COUNTROWS(Ultimos6Meses)
+    RETURN
+    (TotalHomicidiosUltimos6Meses / [M Pobl2021]) * 100000
+ 
+M TasaHomicObjetivo = [M TasaHomicidiosPrimerSemestre]*0.9  
+
+M TasaHomicidiosPrimerSemestre = 
+    VAR Primeros6Meses = CALCULATETABLE(Homicidios_clean, (Homicidios_clean[Fecha] >= DATE(2021, 1, 1) && Homicidios_clean[Fecha] <= DATE(2021, 6, 31)))
+    VAR TotalHomicidiosPrimeros6Meses = COUNTROWS(Primeros6Meses)
+    RETURN
+    (TotalHomicidiosPrimeros6Meses / [M Pobl2021]) * 100000 
+
+
+
+ 
+2do KPI
+Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, 
+en CABA, respecto al año anterior.
+
+
+M ReducPorcentualHomicMotos20-21 = 
+VAR AccidentesAnioAnterior = [M HomicMoto2020]
+VAR AccidentesAnioActual = [M HomicMoto2021]
+RETURN
+IF(
+    ISBLANK(AccidentesAnioAnterior) || ISBLANK(AccidentesAnioActual) || AccidentesAnioAnterior = 0,
+    BLANK(),
+    (-((AccidentesAnioAnterior - AccidentesAnioActual) / AccidentesAnioAnterior) *100)
+)
+
+M TasaHomicMotoObjetivo = [M ReducPorcentualHomicMotos19-20]*0.93
+
+M ReducPorcentualHomicMotos19-20 = 
+VAR AccidentesAnioAnterior = [M HomicMoto2019]
+VAR AccidentesAnioActual = [M HomicMoto2020]
+RETURN
+IF(
+    ISBLANK(AccidentesAnioAnterior) || ISBLANK(AccidentesAnioActual) || AccidentesAnioAnterior = 0,
+    BLANK(),
+    (-((AccidentesAnioAnterior - AccidentesAnioActual) / AccidentesAnioAnterior) *100)
+)
+
+M HomicMoto2019 = 
+VAR AnioAnterior = 2019
+VAR AccidentesAnioAnterior = 
+    CALCULATETABLE(
+        Homicidios_clean, 
+        FILTER(Homicidios_clean, 
+            Homicidios_clean[Victima] = "MOTO" && YEAR(Homicidios_clean[Fecha]) = AnioAnterior
+        )
+    )
+RETURN COUNTROWS(AccidentesAnioAnterior)
+
+M HomicMoto2020 = 
+VAR AnioAnterior = 2020
+VAR AccidentesAnioAnterior = 
+    CALCULATETABLE(
+        Homicidios_clean, 
+        FILTER(Homicidios_clean, 
+            Homicidios_clean[Victima] = "MOTO" && YEAR(Homicidios_clean[Fecha]) = AnioAnterior
+        )
+    )
+RETURN COUNTROWS(AccidentesAnioAnterior)
+
+M MaxMotos = 100
+
+M MimMotos = -100
+
+
+
+
+3er KPI 
+Reducir en un 10% la  tasa de homicidios  en las avenidas en el último año, 
+en CABA, respecto al año anterior.
+
+
+M TasaHomicAvenidas2021 = 
+VAR TotalAccidentes = COUNT(Homicidios_clean[Id])
+VAR AccidentesAvenidas = CALCULATE(COUNT(Homicidios_clean[Id]), Homicidios_clean[Tipo de calle] = "AVENIDA" && YEAR(Homicidios_clean[Fecha]) = 2021)
+RETURN
+DIVIDE(AccidentesAvenidas, [M Pobl2021]) * 100000
+
+M TasaHomicAvenidasObjetivo = [M TasaHomicAvenidas2020]*0.9
+
+M TasaHomicAvenidas2020 = 
+VAR TotalAccidentes = COUNT(Homicidios_clean[Id])
+VAR AccidentesAvenidas = CALCULATE(COUNT(Homicidios_clean[Id]), Homicidios_clean[Tipo de calle] = "AVENIDA" && YEAR(Homicidios_clean[Fecha]) = 2020)
+RETURN
+DIVIDE(AccidentesAvenidas, [M Pobl2021]) * 100000
+
+
+
+
+Medidas Poblacion_CABA
+
+
+M Pobl2010 = SUMX(
+    FILTER(Poblacion_CABA, Poblacion_CABA[Año] = 2010),
+    Poblacion_CABA[Poblacion]
+)
+
+M Pobl2021 = [M Pobl2010] + ([M TasaCrecimPromAnual]* (2021-2010))
+
+M Pobl2022 = SUMX(
+    FILTER(Poblacion_CABA, Poblacion_CABA[Año] = 2022),
+    Poblacion_CABA[Poblacion]
+)
+
+M TasaCrecimPromAnual = ([M Pobl2022] - [M Pobl2010])/(2022 - 2010)

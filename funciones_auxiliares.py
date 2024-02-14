@@ -296,7 +296,7 @@ def distribucion_edad_por_victima(df):
     '''
     Genera un gráfico de la distribución de la edad de las víctimas por tipo de vehículo.
     '''
-    df.drop(df[df['Victima']=='SD'].index, inplace=True)
+    #df.drop(df[df['Victima']=='SD'].index, inplace=True)
     # Se crea el gráfico de boxplot
     plt.figure(figsize=(14, 6))
     sns.boxplot(x='Victima', y='Edad', data=df)
