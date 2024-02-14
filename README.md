@@ -149,10 +149,9 @@ Finalmente, para el segundo semestre del año 2021, se cumplió con el objetivo 
 
 En función de lo anterior, se hacen las siguientes recomendaciones:
 
-* Continuar monitoreando los objetivos propuestos acompañados de campañas puntuales, en especial a conductores de motos y usuarios de las avenidas.
+* Continuar monitoreando los objetivos propuestos acompañados de campañas puntuales, en especial a conductores de motos y usuarios de las avenidas y cruces.
 * Reforzar las campañas de seguridad vial entre los días viernes a lunes, intensificando particularmente en el mes de Diciembre.
-* Puntualizar campañas de conducción segura en avenidas y cruces de calles.
-* Dirigir las campañas de seguridad hacia el sexo masculino, especialmente en cuanto a conducción en moto.
+* Dirigir las campañas de seguridad vial hacia el sexo masculino, especialmente en cuanto a conducción en moto.
 
 
 ## Requerimientos
