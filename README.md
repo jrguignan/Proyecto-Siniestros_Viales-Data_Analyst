@@ -26,12 +26,12 @@ En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aun
 Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministerio de Seguridad de la Nación, revelan que entre 2018 y 2022 se registraron 19.630 muertes en siniestros viales en todo el país. Estas cifras equivalen a 11 personas por día que resultaron víctimas fatales por accidentes de tránsito. <br>
 
 ## Rol a desarrollar
-El `Observatorio de Movilidad y Seguridad Vial` (OMSV), centro de estudios que se encuentra bajo la órbita de la ***Secretaría de Transporte*** del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
+El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la ***Secretaría de Transporte*** del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
 Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. <br>
 
 
-## Datos
-Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en la página [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar/dataset/):[Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales):
+## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)
+Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales):
 
 Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesiones**
 
@@ -85,7 +85,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 
 
 ### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
-## [Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+## [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Dentro del análisis temporal, se abordo el estudio de la distribucion de los años, meses, dias y franjas horarias de los accidentes.
 
@@ -93,13 +93,13 @@ Dando como resultados mas significativos que el mes de Diciembre es el mas afect
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
 
-## [Analisis de accidente y partes involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+## [Análisis de Accidente y Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
-## [Analisis Geografico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+## [Análisis Geográfico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
@@ -147,12 +147,13 @@ Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://gi
 
 
 ## Requerimientos
+- [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)
 - [Python](https://docs.python.org/es/3/library/index.html)
 - [Pandas](https://pandas.pydata.org/)
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
-- [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)
+
 
 
 ## Autor
