@@ -49,7 +49,7 @@ Posee informacion similar al archivo anterior. Tiene mas datos, pero le falta mu
 Para descargar los datasets completos que se utilizaron en este proyecto, se puede descargar también del siguiente link: [Datasets](https://drive.google.com/drive/folders/1SG-1IFA7Uc-iXp_wRLJbg6XDxlSSu3da?usp=sharing) <br>
 
 
-_Nota_: El dataframe que se creo a partir del archivo lesiones, se le coloco el nombre de **victimas**.
+_Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el nombre de **victimas**.
 
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html) <br>
@@ -85,7 +85,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 
 
 ### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
-## [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+#### [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Dentro del análisis temporal, se abordo el estudio de la distribucion de los años, meses, dias y franjas horarias de los accidentes.
 
@@ -93,13 +93,13 @@ Dando como resultados mas significativos que el mes de Diciembre es el mas afect
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
 
-## [Análisis de Accidente y Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+#### [Análisis de Accidente y Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
-## [Análisis Geográfico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+#### [Análisis Geográfico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
@@ -140,9 +140,6 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 ![KPIs](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
 
 Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
-
-## [Conclusiones y Recomendaciones](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
-
 
 
 
