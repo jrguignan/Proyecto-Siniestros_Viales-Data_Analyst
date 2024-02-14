@@ -1,8 +1,9 @@
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
 ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=matplotlib)
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
 
 
 ![henry](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/Logo%20HENRY.png)
@@ -41,7 +42,7 @@ Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesion
 El archivo posee informacion detallada de tiempo, lugar y datos de los participaentes del suceso. Ambas hojas poseen informacion complementaria entre si.
 
 
-**Complementarios:**
+**Complementario:**
 * **lesiones**  contiene una hoja llamada **VICTIMAS**<br>
 Posee informacion similar al archivo anterior. Tiene mas datos, pero le falta mucha información en sus columnas, resultando poco útil.<br>
 
@@ -64,7 +65,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le coloco el 
 - Se llenó los valores faltantes con SD y se cambió los tipos de datos atípicos.
 - Se creó la columna **Nombre dia** , **Categoria tiempo** y **Tipo de dia** , para facilitar el análisis de datos.
 - Se optó por eliminar los SD de la columna **Edad**. 
-- Se guardaron los dataframe en archivos .csv **df1_clean** y **df2_clean**
+- Se guardaron los dataframe en archivos .csv [**df1_clean**](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/dataframe/df1_clean.csv) y [**df2_clean**](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/dataframe/df2_clean.csv), en el [directorio](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/dataframe).
 
 _Recomendaciones_: De ser posible es mucho mas fácil realizar el ETL en Power BI.
 
@@ -93,15 +94,19 @@ Dentro del análisis temporal, se abordo el estudio de la distribucion de los a�
 
 Dando como resultados mas significativos que el mes de Diciembre es el mas afectado por accidentes, asi como los fines de semana no tienen una variacion significativa, pero si lo tienen las franjas horarias, siendo la mañana la franja horaria con mayor cantidad de accidentes.
 
+![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
+
 ## Analisis de accidente y partes involucradas
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
+
+![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
 ## Analisis Geografico
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
-
+![Analisis geografico]](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
 
 ### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
 
@@ -135,7 +140,7 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
     En primer lugar se calculó la *Tasa de homicidios en las avenidas* para el año 2020, la cual resultó en 1.68. De esta se pudo determinar el objetivo a cumplir al año siguiente, que resultó en **1.33** (es decir, la reducción del 10% de la tasa de homicios respecto del 2020). Finalmente, al calcular la *Tasa de homicidios en las avenidas* para el año 2021, la misma resultó de **1.90**, lo que significa que se superó el objetivo, aumentando la tasa de mocidios en avenidas respecto al año anterior.
 
-
+![KPIs]](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
 
 ## Conclusiones y Recomendaciones
 
