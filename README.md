@@ -56,7 +56,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le coloco el 
                                                                               |
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html) <br>
-### [ETL](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
+### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)
 
 - Se unieron las dos hojas del archivo homicidios.
 - Se crearon los dataframe df1_homicidios y df2_victimas.
@@ -69,7 +69,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le coloco el 
 
 _Recomendaciones_: De ser posible es mucho mas fácil realizar el ETL en Power BI.
 
-### [EDA](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/EDA.ipynb)
+### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)
 
 Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la finalidad de encontrar patrones que permitan generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales. dentro de este analisis se destaca:
 
@@ -106,7 +106,7 @@ En este apartado se logro investigar con exito que los accidentes tienen como vi
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
-![Analisis geografico]](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
+![Analisis geografico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
 
 ### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
 
@@ -140,7 +140,7 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
     En primer lugar se calculó la *Tasa de homicidios en las avenidas* para el año 2020, la cual resultó en 1.68. De esta se pudo determinar el objetivo a cumplir al año siguiente, que resultó en **1.33** (es decir, la reducción del 10% de la tasa de homicios respecto del 2020). Finalmente, al calcular la *Tasa de homicidios en las avenidas* para el año 2021, la misma resultó de **1.90**, lo que significa que se superó el objetivo, aumentando la tasa de mocidios en avenidas respecto al año anterior.
 
-![KPIs]](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
+![KPIs](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
 
 ## Conclusiones y Recomendaciones
 
