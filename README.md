@@ -31,19 +31,17 @@ Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales a
 
 
 ## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)
-Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales):
+Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en: [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
 
 Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesiones**
 
-**Obligatorio:**
+
 * **homicidios** contiene dos hojas llamadas: **HECHOS** y **VICTIMAS** <br>
 El archivo posee informacion detallada de tiempo, lugar y datos de los participaentes del suceso. Ambas hojas poseen informacion complementaria entre si.
 
 
-**Complementario:**
 * **lesiones**  contiene una hoja llamada **VICTIMAS**<br>
 Posee informacion similar al archivo anterior. Tiene mas datos, pero le falta mucha información en sus columnas, resultando poco útil.<br>
-
 
 
 Para descargar los datasets completos que se utilizaron en este proyecto, se puede descargar también del siguiente link: [Datasets](https://drive.google.com/drive/folders/1SG-1IFA7Uc-iXp_wRLJbg6XDxlSSu3da?usp=sharing) <br>
