@@ -13,9 +13,8 @@
 <p align="center">
 <img src="https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/SiniestrosV.jpeg"  height=300>
 </p>
----
 
-# Índice Rápido
+# [Índice Rápido](#Índice Rápido)
 * [Introducción](#Introducción)
 * [Contexto](#Contexto)
 * [Rol a desarrollar](#Rol-a-desarrollar)
@@ -34,7 +33,7 @@
 * [Autor](#Autor)
 
 
-# Introducción                  [<sup> Volver al Índice </sup>](#Índice-Rápido)
+# Introducción                  &nbsp;&nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
 
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
