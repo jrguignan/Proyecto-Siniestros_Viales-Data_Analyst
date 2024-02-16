@@ -33,13 +33,13 @@
 * [Autor](#Autor)
 
 
-## Introducción    &nbsp;[<sup> ####Índice </sup>](#Índice-Rápido)
+## Introducción    
 
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
 Se espera como productos finales un reporte de las tareas realizadas y las principales conclusiones, asi como  la presentación de un dashboard interactivo que facilite la interpretación de la información y su análisis. <br>
 
-## Contexto   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+## Contexto   
 En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aunque muchas jurisdicciones han logrado disminuir la cantidad de accidentes de tránsito, esta sigue siendo la principal causa de muertes violentas en el país.
 Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministerio de Seguridad de la Nación, revelan que entre 2018 y 2022 se registraron 19.630 muertes en siniestros viales en todo el país. Estas cifras equivalen a 11 personas por día que resultaron víctimas fatales por accidentes de tránsito. <br>
 
