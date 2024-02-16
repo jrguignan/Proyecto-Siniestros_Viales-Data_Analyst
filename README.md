@@ -15,8 +15,8 @@
 </p>
 
 # Índice Rápido
-* [Introducción](#Introducción-Índice)
-* [Contexto](#contexto-volver-al-índiceContexto)
+* [Introducción](#Introducción)
+* [Contexto](#contexto)
 * [Rol a desarrollar](#Rol-a-desarrollar)
 * [Datos](#Datos)
 * [Tareas Desarrolladas en Python](#Tareas-Desarrolladas-en-Python)
