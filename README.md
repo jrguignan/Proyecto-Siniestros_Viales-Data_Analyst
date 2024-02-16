@@ -27,14 +27,14 @@
 * [Tareas Desarrolladas en Power BI](#Tareas-Desarrolladas-en-Power-BI) 
   * [Dashboar](#Dashboar)
     * [Análisis Temporal](#Análisis-Temporal) 
-    * [Análisis de Accidente y Partes Involucradas](#Análisis-de-Accidente-y-Partes-Involucradas) 
-    * [Análisis Geográfico](#Análisis-Geográfico) 
+    * [Análisis por Partes Involucradas](#Análisis-por-Partes-Involucradas) 
+    * [Análisis por ubicación](#Análisis-por-Ubicación) 
   * [KPIs](#KPIs)   
   * [Conclusiones y Recomendaciones](#Conclusiones-y-Recomendaciones)
   * [Requerimientos]](#Requerimientos)
 
 
-## Introducción                 * [Volver al Índice](#Índice-Rápido)
+## Introducción                  [<sup> Volver al Índice </sup>](#Índice-Rápido)
 
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
