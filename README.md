@@ -69,8 +69,8 @@ Para descargar los datasets completos que se utilizaron en este proyecto, se pue
 _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el nombre de **victimas**.
 
 
-## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html) <br>  [<sup> Volver al Índice </sup>](#Índice-Rápido)
-### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)
+## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html)   [<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb) [<sup> Volver al Índice </sup>](#Índice-Rápido)
 
 - Se unieron las dos hojas del archivo homicidios.
 - Se crearon los dataframe **df1_homicidios** y **df2_victimas**.
@@ -83,7 +83,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el
 
 _Recomendaciones_: De ser posible es mucho mas fácil realizar el ETL en Power BI.
 
-### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)
+### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)  [<sup> Volver al Índice </sup>](#Índice-Rápido)
 
 Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la finalidad de encontrar patrones que permitan generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales. dentro de este analisis se destaca:
 
@@ -101,8 +101,8 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Se hizo web scraping de [https://es.wikipedia.org/wiki/Buenos_Aires](https://es.wikipedia.org/wiki/Buenos_Aires), para tener la poblacion de Buenos Aires. directo en Power Bi, con la herramienta **Obtener Datos (Web)**
 
 
-### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
-#### [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  [<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)  [<sup> Volver al Índice </sup>](#Índice-Rápido)
+#### [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  
 
 Dentro del análisis temporal, se abordo el estudio de la distribucion de los años, meses, dias y franjas horarias de los accidentes.
 
