@@ -37,7 +37,8 @@
 
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
-Se espera como productos finales un reporte de las tareas realizadas y las principales conclusiones, asi como  la presentación de un dashboard interactivo que facilite la interpretación de la información y su análisis. <br>
+Se espera como productos finales un reporte de las tareas realizadas y las principales conclusiones, asi como  la presentación de un dashboard interactivo que facilite la interpretación de la información y su análisis.
+<br>&nbsp;[<sup><sub> Volver al Índice </sup></sub>](#Índice-Rápido)
 
 ## Contexto   
 En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aunque muchas jurisdicciones han logrado disminuir la cantidad de accidentes de tránsito, esta sigue siendo la principal causa de muertes violentas en el país.
@@ -48,7 +49,8 @@ El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se 
 Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. <br>
 
 
-## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)   sposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en: [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
+## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)   
+Se colocó a disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en: [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
 
 Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesiones**
 
