@@ -44,13 +44,11 @@ En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aun
 Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministerio de Seguridad de la Nación, revelan que entre 2018 y 2022 se registraron 19.630 muertes en siniestros viales en todo el país. Estas cifras equivalen a 11 personas por día que resultaron víctimas fatales por accidentes de tránsito. <br>
 
 ## Rol a desarrollar   
-<br> &nbsp;[<sup><sub> Volver al Índice </sup></sub>](#Índice-Rápido)
 El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la ***Secretaría de Transporte*** del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
 Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. <br>
 
 
-## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
-Se pone a nuestra disposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en: [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
+## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)   sposición un par de datasets sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el período 2016-2021, que se puede encontar en: [Datasets Originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
 
 Para este proyecto se proporcionaron dos archivos XLSX **homicidios** y **lesiones**
 
@@ -70,7 +68,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el
 
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html)  
-### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)  &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)  
 
 - Se unieron las dos hojas del archivo homicidios.
 - Se crearon los dataframe **df1_homicidios** y **df2_victimas**.
@@ -83,7 +81,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el
 
 _Recomendaciones_: De ser posible es mucho mas fácil realizar el ETL en Power BI.
 
-### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)   
 
 Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la finalidad de encontrar patrones que permitan generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales. dentro de este analisis se destaca:
 
@@ -94,14 +92,14 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Cantidad de Acusados en los accidentes.
 - Catidad de victimas por tipo de calle - cruce.
 
-## Tareas Desarrolladas en [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+## Tareas Desarrolladas en [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)   
 ### [ETL](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
 - Se verificó  y corrigió los tipos de datos de los dos datasets **df_homicidios**  y **df_Victimas**
 - Se reordenaron las columnas
 - Se hizo web scraping de [https://es.wikipedia.org/wiki/Buenos_Aires](https://es.wikipedia.org/wiki/Buenos_Aires), para tener la poblacion de Buenos Aires. directo en Power Bi, con la herramienta **Obtener Datos (Web)**
 
 
-### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [Dashboard](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)   
 #### [Análisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  
 
 Dentro del análisis temporal, se abordo el estudio de la distribucion de los años, meses, dias y franjas horarias de los accidentes.
@@ -110,19 +108,19 @@ Dando como resultados mas significativos que el mes de Diciembre es el mas afect
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
 
-#### [Análisis por Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  [<sup> Volver al Índice </sup>](#Índice-Rápido)
+#### [Análisis por Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
-#### [Análisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+#### [Análisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)   
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
 ![Analisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
 
-### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)  &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)  
 
 * *Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior*
 
@@ -160,7 +158,7 @@ Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://gi
 
 
 
-## Conclusiones y Recomendaciones   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+## Conclusiones y Recomendaciones   
 
 Entre los años 2016 a 2021 se registraron 618 víctimas fatales en accidentes de tránsito. Aproximadamente el 70% de las víctimas se registraron durante la semana. En cuanto a la franja horaria, alrededor del 12% de los hechos ocurre entre las 6 y las 8 de la mañana, pero durante los fines de semana. Diciembre es el mes que resulta con el máximo de fallecimientos en el período analizado.
 
@@ -177,7 +175,7 @@ En función de lo anterior, se hacen las siguientes recomendaciones:
 * Seguir generando y monitoreando la data de los accidentes, para poder hacer un seguimiento de los objetivos.
 
 
-## Requerimientos   &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+## Requerimientos   
 - [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)
 - [Python](https://docs.python.org/es/3/library/index.html)
 - [Pandas](https://pandas.pydata.org/)
@@ -187,7 +185,7 @@ En función de lo anterior, se hacen las siguientes recomendaciones:
 
 
 
-## Autor  &nbsp;[<sup> Volver al Índice </sup>](#Índice-Rápido)
+## Autor  
 - José R. Guignan
 - Mail: joserguignan@gmail.com
 - Linkedin: [https://www.linkedin.com/in/jrguignan](https://www.linkedin.com/in/jrguignan)
