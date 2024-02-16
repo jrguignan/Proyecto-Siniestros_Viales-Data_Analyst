@@ -5,7 +5,6 @@
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=matplotlib)
 
 
-
 ![henry](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/Logo%20HENRY.png)
 
 # Proyecto Siniestros Viales - Data Analyst
@@ -16,19 +15,26 @@
 </p>
 
 
-## Quick links
+## Índice Rápido
 
 * [Introducción](#Introducción)
 * [Contexto](#Contexto)
-* [Rol a desarrollar](#Rol a desarrollar)
+* [Rol a desarrollar](#Rol-a-desarrollar)
 * [Datos](#Datos)
-* [Tareas Desarrolladas en Python](#Tareas Desarrolladas en [Python)
+* [Tareas Desarrolladas en Python](#Tareas-Desarrolladas-en-Python)
   * [ETL](#ETL)
   * [EDA](#EDA)
-* [Tareas Desarrolladas en Power BI](#Tareas Desarrolladas en Power BI)  
+* [Tareas Desarrolladas en Power BI](#Tareas-Desarrolladas-en-Power-BI) 
+  * [Dashboar](#Dashboar)
+    * [Análisis Temporal](#Análisis-Temporal) 
+    * [Análisis de Accidente y Partes Involucradas](#Análisis-de-Accidente-y-Partes-Involucradas) 
+    * [Análisis Geográfico](#Análisis-Geográfico) 
+  * [KPIs](#KPIs)   
+  * [Conclusiones y Recomendaciones](#Conclusiones-y-Recomendaciones)
+  * [Requerimientos]](#Requerimientos)
 
 
-## Introducción
+## Introducción                 * [Volver al Índice](#Índice-Rápido)
 
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
@@ -104,17 +110,17 @@ Dando como resultados mas significativos que el mes de Diciembre es el mas afect
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
 
-#### [Análisis de Accidente y Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+#### [Análisis por Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 
-#### [Análisis Geográfico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
+#### [Análisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
-![Analisis geografico](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
+![Analisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
 
 ### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
 
@@ -126,7 +132,7 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
     Como *Población Total* se calculó la población para el año 2021 a partir de los censos poblacionales del año 2010 y 2022.
 
-    En este caso, para el año 2021, la *Tasa de homicidios en siniestros viales* fue de 1.77 lo que significa que, durante los primeros 6 meses del año 2021, hubo aproximadamente 1.77 homicidios en accidentes de tránsito por cada 100,000 habitantes. Ahora, el objetivo planteado es reducir esta tasa para el siguiente semestre de 2021 en un 10%, esto es **1.45**. Cuando se calcula el KPI para este período se obtiene que la *Tasa de homicidios en siniestros viales* fue de **1.32**, lo que significa que para el segundo semestre de 2021 se cumple con el objetivo propuesto.
+    En este caso, para el año 2021, la *Tasa de homicidios en siniestros viales* fue de 1.61 lo que significa que, durante los primeros 6 meses del año 2021, hubo aproximadamente 1.61 homicidios en accidentes de tránsito por cada 100,000 habitantes. Ahora, el objetivo planteado es reducir esta tasa para el siguiente semestre de 2021 en un 10%, esto es **1.45**. Cuando se calcula el KPI para este período se obtiene que la *Tasa de homicidios en siniestros viales* fue de **1.32**, lo que significa que para el segundo semestre de 2021 se cumple con el objetivo propuesto.
 
 * *Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior*
 
@@ -138,7 +144,7 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
     - $\text{Víctimas moto año anterior}$: Número de accidentes mortales con víctimas en moto en el año anterior
     - $\text{Víctimas moto año actual}$: Número de accidentes mortales con víctimas en moto en el año actual 
 
-    Para este caso, se toma como año actual al año 2021 y como año anterior al año 2020. En primer lugar, se calculó la *Cantidad de accidentes mortales de motociclistas* para el año 2020, el cual resultó de -44.00, de esta manera el objetivo a cumplir es de **-41.09** (es decir, la reducción del 7% de la cantidad de accidentes para 2020). El calcular la *Cantidad de accidentes mortales de motociclistas* para el año 2021 resultó de **87.50** lo que significa que aumentó un 64% la cantidad de muertes de conductores de motociclistas respecto del 2021.
+    Para este caso, se toma como año actual al año 2021 y como año anterior al año 2020. En primer lugar, se calculó la *Cantidad de accidentes mortales de motociclistas* para el año 2020, el cual resultó de -44.18, de esta manera el objetivo a cumplir es de **-41.09** (es decir, la reducción del 7% de la cantidad de accidentes para 2020). El calcular la *Cantidad de accidentes mortales de motociclistas* para el año 2021 resultó de **87.50** lo que significa que aumentó un 64% la cantidad de muertes de conductores de motociclistas respecto del 2021.
 
 * *Reducir en un 10% la tasa de homicidios en las avenidas en el último año, en CABA, respecto al año anterior*
 
@@ -146,13 +152,15 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
     $\text{Tasa de homicidios en las avenidas} = \frac{\text{Número de accidentes mortales con víctimas ocurridas en avenidas}}{\text{Total de la población}}·100000$
 
-    En primer lugar se calculó la *Tasa de homicidios en las avenidas* para el año 2020, la cual resultó en 1.68. De esta se pudo determinar el objetivo a cumplir al año siguiente, que resultó en **1.33** (es decir, la reducción del 10% de la tasa de homicios respecto del 2020). Finalmente, al calcular la *Tasa de homicidios en las avenidas* para el año 2021, la misma resultó de **1.90**, lo que significa que se superó el objetivo, aumentando la tasa de mocidios en avenidas respecto al año anterior.
+    En primer lugar se calculó la *Tasa de homicidios en las avenidas* para el año 2020, la cual resultó en 1.48. De esta se pudo determinar el objetivo a cumplir al año siguiente, que resultó en **1.33** (es decir, la reducción del 10% de la tasa de homicios respecto del 2020). Finalmente, al calcular la *Tasa de homicidios en las avenidas* para el año 2021, la misma resultó de **1.90**, lo que significa que se superó el objetivo, aumentando la tasa de homicidios en avenidas respecto al año anterior.
 
 ![KPIs](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/KPIs.jpg)
 
 Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
 
-## Conclusiones y recomendaciones
+
+
+## Conclusiones y Recomendaciones
 
 Entre los años 2016 a 2021 se registraron 618 víctimas fatales en accidentes de tránsito. Aproximadamente el 70% de las víctimas se registraron durante la semana. En cuanto a la franja horaria, alrededor del 12% de los hechos ocurre entre las 6 y las 8 de la mañana, pero durante los fines de semana. Diciembre es el mes que resulta con el máximo de fallecimientos en el período analizado.
 
@@ -162,9 +170,11 @@ Finalmente, para el segundo semestre del año 2021, se cumplió con el objetivo 
 
 En función de lo anterior, se hacen las siguientes recomendaciones:
 
-* Continuar monitoreando los objetivos propuestos acompañados de campañas puntuales, en especial a conductores de motos y usuarios de las avenidas y cruces.
+* Realizar campañas puntuales, en avenidas y calles, con enfasis en los cruces.
 * Reforzar las campañas de seguridad vial entre los días viernes a lunes, intensificando particularmente en el mes de Diciembre.
-* Dirigir las campañas de seguridad vial hacia el sexo masculino, especialmente en cuanto a conducción en moto.
+* Dirigir las campañas de seguridad hacia el sexo masculino, especialmente en cuanto a conducción de moto y automoviles.
+* Hacer campañas para el correcto uso de los medios de transportes y y vias por parte de los peatones.
+* Seguir generando y monitoreando la data de los accidentes, para poder hacer un seguimiento de los objetivos.
 
 
 ## Requerimientos
