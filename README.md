@@ -69,7 +69,6 @@ Para descargar los datasets completos que se utilizaron en este proyecto, se pue
 
 
 _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el nombre de **victimas**.
-
 <br>[Volver al Índice](#Índice-Rápido)
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html)  
@@ -97,6 +96,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Cantidad de victimas por sexo y rol.
 - Cantidad de Acusados en los accidentes.
 - Catidad de victimas por tipo de calle - cruce.
+
 <br>[Volver al Índice](#Índice-Rápido)
 
 ## Tareas Desarrolladas en [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)   
@@ -104,6 +104,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Se verificó  y corrigió los tipos de datos de los dos datasets **df_homicidios**  y **df_Victimas**
 - Se reordenaron las columnas
 - Se hizo web scraping de [https://es.wikipedia.org/wiki/Buenos_Aires](https://es.wikipedia.org/wiki/Buenos_Aires), para tener la poblacion de Buenos Aires. directo en Power Bi, con la herramienta **Obtener Datos (Web)**
+
 <br>[Volver al Índice](#Índice-Rápido)
 
 
@@ -167,7 +168,6 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
 
 Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
-
 <br>[Volver al Índice](#Índice-Rápido)
 
 
@@ -197,6 +197,7 @@ En función de lo anterior, se hacen las siguientes recomendaciones:
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
+
 <br>[Volver al Índice](#Índice-Rápido)
 
 
