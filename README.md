@@ -23,10 +23,10 @@
   * [ETL](#ETL)
   * [EDA](#EDA)
 * [Tareas Desarrolladas en Power BI](#Tareas-Desarrolladas-en-Power-BI) 
-  * [Dashboar](#Dashboar)
+  * [Dashboard](#Dashboard)
     * [Análisis Temporal](#Análisis-Temporal) 
     * [Análisis por Partes Involucradas](#Análisis-por-Partes-Involucradas) 
-    * [Análisis por ubicación](#Análisis-por-Ubicación) 
+    * [Análisis por Ubicación](#Análisis-por-Ubicación) 
   * [KPIs](#KPIs)   
 * [Conclusiones y Recomendaciones](#Conclusiones-y-Recomendaciones)
 * [Requerimientos](#Requerimientos)
@@ -126,7 +126,7 @@ En este apartado se logro investigar con exito que los accidentes tienen como vi
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
 <br>[Volver al Índice](#Índice-Rápido)
 
-#### [Análisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)   
+#### [Análisis por Ubicación](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)   
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
