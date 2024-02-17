@@ -14,7 +14,7 @@
 <img src="https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/SiniestrosV.jpeg"  height=300>
 </p>
 
-# Índice Rápido
+# Índice
 * [Introducción](#Introducción)
 * [Contexto](#contexto)
 * [Rol a desarrollar](#Rol-a-desarrollar)
@@ -38,17 +38,17 @@
 En este proyecto se simula el rol de un Data Analyst que forma parte del equipo de analistas de datos de una empresa consultora a la cual el **Observatorio de Movilidad y Seguridad Vial (OMSV)**, que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), les solicitó la elaboración de un proyecto de análisis de datos. 
 
 Se espera como productos finales un reporte de las tareas realizadas y las principales conclusiones, asi como  la presentación de un dashboard interactivo que facilite la interpretación de la información y su análisis.
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ## Contexto   
 En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aunque muchas jurisdicciones han logrado disminuir la cantidad de accidentes de tránsito, esta sigue siendo la principal causa de muertes violentas en el país.
 Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministerio de Seguridad de la Nación, revelan que entre 2018 y 2022 se registraron 19.630 muertes en siniestros viales en todo el país. Estas cifras equivalen a 11 personas por día que resultaron víctimas fatales por accidentes de tránsito. 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ## Rol a desarrollar   
 El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la ***Secretaría de Transporte*** del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
 Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 
 ## [Datos](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/datasets)   
@@ -69,7 +69,7 @@ Para descargar los datasets completos que se utilizaron en este proyecto, se pue
 
 
 _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el nombre de **victimas**.
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ## Tareas Desarrolladas en [Python](https://docs.python.org/es/3/library/index.html)  
 ### [ETL](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)  
@@ -84,7 +84,7 @@ _Nota_: El dataframe que se creo a partir del archivo lesiones, se le colocó el
 - Se guardaron los dataframe en archivos .csv [**df1_clean**](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/dataframe/df1_clean.csv) y [**df2_clean**](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/dataframe/df2_clean.csv), en el [directorio](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/tree/main/dataframe).
 
 _Recomendaciones_: De ser posible es mucho mas fácil realizar el ETL en Power BI.
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ### [EDA](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/ETL%20-%20EDA.ipynb)   
 
@@ -97,7 +97,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Cantidad de Acusados en los accidentes.
 - Catidad de victimas por tipo de calle - cruce.
 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ## Tareas Desarrolladas en [Power BI](https://www.microsoft.com/es-es/power-platform/products/power-bi/)   
 ### [ETL](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)
@@ -105,7 +105,7 @@ Se procedió a realizar un análisis exploratorio exahustivo (EDA), con la final
 - Se reordenaron las columnas
 - Se hizo web scraping de [https://es.wikipedia.org/wiki/Buenos_Aires](https://es.wikipedia.org/wiki/Buenos_Aires), para tener la poblacion de Buenos Aires. directo en Power Bi, con la herramienta **Obtener Datos (Web)**
 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 <br>
 
@@ -117,21 +117,21 @@ Dentro del análisis temporal, se abordo el estudio de la distribucion de los a�
 Dando como resultados mas significativos que el mes de Diciembre es el mas afectado por accidentes, asi como los fines de semana no tienen una variacion significativa, pero si lo tienen las franjas horarias, siendo la mañana la franja horaria con mayor cantidad de accidentes.
 
 ![Analisis Temporal](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porTiempo.jpg)
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 #### [Análisis por Partes Involucradas](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)  
 
 En este apartado se logro investigar con exito que los accidentes tienen como victimas principalmente a los conductores de motos y a los peatones, y como principales acusados a los autos y pasajeros de transporte publico. Tambien se puede ver que los hombres tieen mayores probabilidades de tener accidentes, asi como las personas de rango etario de entre 16 y 35 años.
 
 ![Analisis de accidente](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porVictima.jpg)
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 #### [Análisis por Ubicación](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Siniestros_Viales.pbix)   
 
 Siguiendo con el analisis, podemos verificar que existe una correlacion significativa entre los lugares de los accidentes, siendo mayormente localizados en cruces de avenidas.
 
 ![Analisis por ubicacion](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/images/PBI_porUbicacion.jpg)
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 ### [KPIs](https://github.com/jrguignan/Proyecto-Sistema_Recomendaciones-API/blob/main/ETL.ipynb)  
 
@@ -169,7 +169,7 @@ Siguiendo con el analisis, podemos verificar que existe una correlacion signific
 
 
 Se guardaron las medidas usadas en Power BI en el siguiente [archivo](https://github.com/jrguignan/Proyecto-Siniestros_Viales-Data_Analyst/blob/main/Medidas%20KPIs.txt)
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 
 
@@ -188,7 +188,7 @@ En función de lo anterior, se hacen las siguientes recomendaciones:
 * Dirigir las campañas de seguridad hacia el sexo masculino, especialmente en cuanto a conducción de moto y automoviles.
 * Hacer campañas para el correcto uso de los medios de transportes y y vias por parte de los peatones.
 * Seguir generando y monitoreando la data de los accidentes, para poder hacer un seguimiento de los objetivos.
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 
 ## Requerimientos   
@@ -199,7 +199,7 @@ En función de lo anterior, se hacen las siguientes recomendaciones:
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 
 
